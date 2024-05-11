@@ -1,0 +1,75 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.background {
+    background: url('./166838-battlefield_2042-battlefield_2042_obzor-kosti-electronic_arts-shuter-3840x2160.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.login-panel {
+    background: rgba(131, 131, 131, 0.8);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.877);
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 35px;
+}
+
+.tab {
+    flex-grow: 1;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+    color: #000000;
+    border-bottom: 2px solid transparent;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+
+.tab.active {
+    border-bottom: 2px solid rgb(0, 2, 112);
+}
+
+.form {
+    display: none;
+}
+
+.form.active {
+    display: block;
+}
+
+input[type='text'],
+input[type='password'],
+input[type='email'] {
+    width: 280px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9ff00;
+    border: none;
+    color: rgb(22, 6, 6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1eb300;
+}
